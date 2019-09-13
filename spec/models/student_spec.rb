@@ -54,3 +54,12 @@ describe "uniqueness" do
   subject { Student.new(name: 'foo') }
   it { should validate_uniqueness_of(:name) }
 end
+
+describe "numericality" do
+  before(:each) do
+    @student = Student.create(name: 'foo', gpa: 4, student_number: 1, school_id: 1)
+  end
+  
+   it { should validate_numericality_of(:studnet_number) }
+end 
+

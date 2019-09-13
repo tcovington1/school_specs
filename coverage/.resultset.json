@@ -676,6 +676,15 @@
         1,
         0,
         0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
         null
       ],
       "/Users/taylorcovington/Desktop/DPL/Week5/Day3/project_day/school_specs_fall19/app/models/student.rb": [
@@ -746,6 +755,6 @@
         null
       ]
     },
-    "timestamp": 1568340051
+    "timestamp": 1568341130
   }
 }
